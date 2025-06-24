@@ -1,12 +1,59 @@
-# React + Vite
+#  Sorting Visualizer
+Github Page - https://aayushsrivastava0307.github.io/SortingAlgorithmVisualiser/ </br>
+A web-based visualization tool for popular sorting algorithms including Merge Sort, Quick Sort, Heap Sort, Bubble Sort, and Selection Sort. This interactive application visually demonstrates how each algorithm sorts a large array of numbers using color-coded animations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Features
 
-Currently, two official plugins are available:
+- Visualize 5 different sorting algorithms.
+- Responsive and modern UI using React.
+- Interactive controls:
+  - Choose sorting algorithm.
+  - Start sorting animation.
+  - Generate new random array or stop current animation.
+- Smooth and fast animations with color-coded comparisons and swaps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- CSS3
+- Vite (for fast development builds)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Project Structure
+src/ </br>
+├── Algorithms/ # (contains all the algorithms that returns the animations) </br>
+├── SortingVisualiser/ # main component and styling </br>
+│ ├── SortingVisualiser.jsx </br>
+│ └── SortingVisualiser.css </br>
+├── App.jsx </br>
+├── App.css </br>
+├── index.css </br>
+└── main.jsx </br>
+
+##  Getting Started
+
+### Prerequisites
+
+Ensure you have **Node.js** (v14 or above) and **npm** installed:
+
+```bash
+node -v
+npm -v
+```
+# Installation
+Clone the repository:
+```bash
+git clone https://github.com/your-username/sorting-visualizer.git
+cd sorting-visualizer
+```
+Install the dependencies
+```bash
+npm install
+```
+Start the development server
+```bash
+npm run dev
+```
+Navigate to the given localhost (typically http://localhost:5173/ )
+
+
